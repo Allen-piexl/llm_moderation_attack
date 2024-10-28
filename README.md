@@ -24,5 +24,17 @@ pip install torch torchvision transformers openai==0.28.0
 ```
 
 ### Step 2: Run JAM.py
-
+```bash
+python JAM.py --api_type azure --api_base <your_api_base_url> --api_version <your_api_version> --api_key <your_api_key> --engine <your_engine_name> --question "Your question here"
+```
 ## We also provide a Demo for JAM, which is in demo.py
+
+
+## Reference
+```bibtex
+@article{jin2024jailbreaking,
+  title={Jailbreaking Large Language Models Against Moderation Guardrails via Cipher Characters},
+  author={Jin, Haibo and Zhou, Andy and Menke, Joe D and Wang, Haohan},
+  journal={arXiv preprint arXiv:2405.20413},
+  year={2024}
+}
