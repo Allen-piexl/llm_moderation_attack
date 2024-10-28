@@ -10,3 +10,4 @@ To set up the environment, use Conda to create a new environment with the requir
 ```bash
 conda create -n JAM python=3.10
 conda activate JAM
+pip install torch torchvision transformers openai==0.28.0
